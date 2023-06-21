@@ -10,6 +10,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./images/header/house.png), url(./images/header/blue.png), url(./images/header/green.png);
+  background-repeat: no-repeat;
+  background-position: right top, left top, left top;
+
 }
 
 code {

@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../images/header/logo.png";
+import WhiteButton from "./WhiteButton";
+
 
 export default function Navbar() {
   return (
@@ -9,12 +11,8 @@ export default function Navbar() {
       </div>
       <div className="flex items-center h-12 w-[532px] mr-[111px]">
       <div className="w-96 h-12 flex items-center justify-evenly mr-14">
-        <button className="rounded-full border-2 border-white w-24 h-8 border-solid text-white font-semibold text-sm">
-          About us
-        </button>
-        <button className="rounded-full border-2 border-white w-24 h-8 border-solid text-white font-semibold text-sm">
-          Article
-        </button>
+        <WhiteButton value = {"About us"}></WhiteButton>
+        <WhiteButton value = {"Article"}></WhiteButton>
         <button
           className="rounded-full border-2 border-white w-32 h-8 border-solid text-white font-semibold text-sm"
         >

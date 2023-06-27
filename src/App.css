@@ -1,1 +1,5 @@
-
+.hope{
+   background-image: url(../src/images/hope/orange.png), url(../src/images/hope/yellow.png);
+   background-repeat: no-repeat;
+   background-position: bottom 150px right, bottom right;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Review from "./components/Review";
+import Review from "./components/SectionReview";
 import SectionFeatured from "./components/SectionFeatured";
 import SectionFind from "./components/SectionFind";
 import SectionTour from "./components/SectionTour";
@@ -15,8 +15,8 @@ export default function App() {
       <div className="hope">
       <SectionFeatured />
       <SectionTour />
-      <Review />
       </div>
+      <Review />
     </div>
   );
 }

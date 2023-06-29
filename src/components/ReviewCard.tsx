@@ -22,9 +22,9 @@ export default function ReviewCard(props: {
         <div className="w-[548px] h-[48px]">
           <div className="w-[548px] flex flex-row justify-between">
             <div className="w-[340px] h-[50px] flex flex-row items-center">
-              <div className="w-[56px] h-[56px] flex flex-row justify-center items-center">
+              <div className= "w-[48px] h-[48px]">
                 <img
-                  className="w-[40px] h-[40px]"
+                  className="w-[48px] h-[48px]"
                   src={props.icon}
                   alt="icon"
                 ></img>

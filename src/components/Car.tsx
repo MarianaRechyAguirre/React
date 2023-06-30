@@ -9,7 +9,7 @@ import lisa from "../images/feature/lisa.png";
 
 export default function Car() {
   return (
-    <Carousel className="rounded-lg">
+    <Carousel className="rounded-lg drop-shadow-md">
       <ReviewCard
         picture={best}
         text="Best! I got the house I wanted through Hounter"
